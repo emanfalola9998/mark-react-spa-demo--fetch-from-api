@@ -11,7 +11,7 @@ const jokeResponse = [
 
 function printExampleJoke() {
   /** TS correctly warns us that jokeResponse is an array */
-  console.log(jokeResponse.setup, jokeResponse.punchline);
+  // console.log(jokeResponse.setup, jokeResponse.punchline);
   /** TS lets us read from an element in the array though! */
   console.log(jokeResponse[0].setup, jokeResponse[0].punchline);
 }
